@@ -1,7 +1,5 @@
 
 
-# Basic Operators
-
 In this folder, you will learn how to perform calculations and make comparisons in Python.
 
 ## Concepts covered:
