@@ -9,3 +9,4 @@ print(bool(x==5.9))
 
 x="hello"
 print(bool(x=="hello"))
+
