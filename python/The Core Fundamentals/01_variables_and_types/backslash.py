@@ -5,7 +5,7 @@ print(message)
 Python usually expects a statement to be completed on a single line. If you have a very long line of code, you can use the backslash to break it into multiple lines to improve readability.
 
 Python
-# Instead of one long, hard-to-read line:
+# Instead of one long, hard-to-read line
 total = item_one + item_two + item_three + item_four + item_five
 
 # You can use a backslash to continue the line:
