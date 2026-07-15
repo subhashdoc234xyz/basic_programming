@@ -37,3 +37,49 @@ public class ConsoleIO {
     }
 }
 """with open("Java_Basics.md", "w") as f:f.write(markdown_content)
+
+
+
+
+
+2. Data Types and Variables
+Java is statically typed, which means you must declare the data type of every variable before using it. Once a variable is declared as a specific type, its type cannot change.
+
+
+Primitive Types: Store simple values directly in memory.
+
+
+Reference Types: Store references (memory addresses) to objects.
+
+
+Data types examples:
+
+![alt text](image.png)
+
+Floating-Point Precision: Remember that decimal literals are treated as double by default. If you want to use a float, you must append f or F to the value (e.g., float rate = 5.5f;).
+
+
+3. Console I/O
+Java uses System.out for printing to the console and the Scanner class (located in the java.util package) to read input from the user.
+
+
+Example: Console Input and Output
+
+import java.util.Scanner; // Import the Scanner class
+
+public class ConsoleIO {
+    public static void main(String[] args) {
+        // Create a Scanner object to read input
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.print("Enter your age: ");
+        int age = sc.nextInt(); // Reads an integer
+        
+        // println adds a new line, print keeps it on the same line [cite: 33]
+        System.out.println("You are " + age + " years old.");
+        
+        sc.close(); // Good practice to close the scanner
+    }
+}
+
+
